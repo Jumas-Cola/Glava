@@ -1,0 +1,94 @@
+/*-----header---*/
+
+.header_top{
+  background: #333333;
+  padding: 15px 0;  
+}
+
+.header_top_wrapper{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  
+  .header_top_nav{
+    ul{
+      display: flex;
+      flex-flow: row;
+      li{
+        margin: 0 25px 0 0;
+        a {          
+          font-size: 14px;
+          font-weight: 400;
+          font-family: "Myriad Pro";
+          color: #ffffff;
+          transition: all .3s ease;
+        }
+        a:hover{
+          color: #ffffff;
+          text-shadow: 0 0 0.02px #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.header_top_communicaton{
+  display: flex;
+  flex-flow: row;
+  > a{
+    display: block;
+  }
+    
+  .header_top_mail{
+    font: 600 14px 'Open Sans';
+    color: #ffffff;
+    background: url(/public/images/mail.png) no-repeat left top;    
+    padding: 0 0 3px 25px;
+    margin: 0 35px 0 0;
+    transition: all .3s ease;
+  }
+  
+  .header_top_mail:hover{
+    color: #ffffff;
+    text-shadow: 0 0 0.02px #ffffff;
+  }
+  
+  .header_top_call{
+    font: 600 14px 'Open Sans';
+    color: #c0e497;
+    margin: 0 35px 0 0;
+    transition: all .3s ease;
+  }
+  
+  .header_top_call:hover{
+    color: #c0e497;
+    text-shadow: 0 0 0.02 #c0e497;
+  }
+  
+  .header_top_phone{
+    font: 600 14px 'Open Sans';
+    color: #ffffff;
+    background: url(/public/images/phone.png) no-repeat left top;    
+    padding: 0 0 3px 20px;
+    margin: 0 35px 0 0;
+    transition: all .3s ease;
+  }
+  
+  .header_top_phone:hover{
+    color: #fff;
+    text-shadow: 0 0 0.02px #fff;
+  }
+  
+  
+}
+
+
+/*-------------header_bottom--------------*/
+
+.header_bottom{
+  
+}
+
+
+
+

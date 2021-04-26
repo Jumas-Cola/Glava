@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TITLE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap&subset=cyrillic" rel="stylesheet">
+
+  <link rel="stylesheet" href="public/css/slick/slick-theme.css">
+  <link rel="stylesheet" href="public/css/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+  <link rel="stylesheet" href="public/css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="header_top">
+      <div class="grid_container header_top_wrapper">
+        <nav class="header_top_nav">
+          <ul>
+            <li><a href="#!">О нашем магазине</a></li>
+            <li><a href="#!">Доставка</a></li>
+            <li><a href="#!">Оплата</a></li>
+            <li><a href="#!">Бренды</a></li>
+            <li><a href="#!">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header_top_communicaton">
+          <a href="mailto:" class="header_top_mail">info@mail.ru</a>
+          <a href="#!" class="header_top_call">Заказать звонок</a>
+          <a href="tel:+7 (000) 000-00-00" class="header_top_phone">+7 (000) 000-00-00</a>
+        </div>
+      </div>
+    </div>
+    <div class="header_bottom">
+      <div class="grid_container header_bottom_wrapper">
+        <a href="#!" class="header_logo">
+          <img src="public/images/logotip.png" alt="" class="header_logo_img">
+          <!--
+          <span class="logo_title">Глава</span>
+          <span class="logo_subtitle">Торговый дом</span>
+-->
+        </a>
+        <div class="header_nav_catalog">
+          <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+            <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          </svg>
+          <span class="header_nav_catalog_title">Каталог</span>
+          <nav class="nav_catalog">
+            <ul>
+              <li>
+                <a href="#!"></a>
+                <a href="#!"></a>
+                <a href="#!"></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <form action="" class="header_bottom_search">
+          <input class="input_search" type="text" name="textfield" placeholder="Поиск товаров по сайту">
+          <button type="submit" class="search_button"></button>
+        </form>
+        <div class="header_bottom_client_panel">
+          <a href="" class="header_bottom_comparison"></a>
+          <a href="" class="header_bottom_chat"></a>
+          <a href="" class="header_bottom_personal_area"></a>
+          <a href="" class="header_bottom_basket">
+            <span class="quantity_in_basket">Пусто</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="banner">
+      <div class="grid_container">
+        <div class="banner_slider">
+          <div class="banner_slide">
+            <img src="public/images/tizer_slide.png" alt="">
+          </div>
+          <div class="banner_slide">
+            <img src="public/images/tizer_slide.png" alt="">
+          </div>
+          <div class="banner_slide">
+            <img src="public/images/tizer_slide.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="link_group">
+      <div class="grid_container link_group_wrapper">
+        <div class="link_group_top">
+          <a href="#!" class="link_group_item">
+            <div class="link_group_item_img">
+              <img src="public/images/delivery.png" alt="">
+            </div>
+            <h4 class="link_group_title">Доставка товара в любое место</h4>
+          </a>
+          <a href="#!" class="link_group_item">
+            <div class="link_group_item_img">
+              <img src="public/images/card.png" alt="">
+            </div>
+            <h4 class="link_group_title">Любые способы оплаты</h4>
+          </a>
+          <a href="#!" class="link_group_item">
+            <div class="link_group_item_img">
+              <img src="public/images/search2.png" alt="">
+            </div>
+            <h4 class="link_group_title">Легко найти <br> товары на сайте</h4>
+          </a>
+          <a href="#!" class="link_group_item">
+            <div class="link_group_item_img">
+              <img src="public/images/whatsap_link.png" alt="">
+            </div>
+            <h4 class="link_group_title">Чат по WhatsApp <br> со специалистом</h4>
+          </a>
+        </div>
+        <div class="link_group_bottom">
+          <a href="#!" class="link_group_bottom_item">
+            <div class="link_group_bottom_item_img">
+              <img src="public/images/calc.png" alt="">
+            </div>
+            <h4 class="link_group_title">Заявка на расчет стоимости</h4>
+            <p class="link_group_text">
+              Мы сделаем рассчет стоимости ремонта, просто оставьте заявку
+            </p>
+          </a>
+          <a href="#!" class="link_group_bottom_item">
+            <div class="link_group_bottom_item_img">
+              <img src="public/images/auto.png" alt="">
+            </div>
+            <h4 class="link_group_title">Расчет стоимости доставки</h4>
+            <p class="link_group_text">
+              Узнайте сколько будет стоить доставка до вашего объекта
+            </p>
+          </a>
+          <a href="#!" class="link_group_bottom_item">
+            <div class="link_group_bottom_item_img">
+              <img src="public/images/calendar.png" alt="">
+            </div>
+            <h4 class="link_group_title">Сезонные товары</h4>
+            <p class="link_group_text">
+              Все сезонные товары находятся в одном разделе
+            </p>
+          </a>
+          <a href="#!" class="link_group_bottom_item">
+            <div class="link_group_bottom_item_img">
+              <img src="public/images/calc.png" alt="">
+            </div>
+            <h4 class="link_group_title">Акции и товары по скидке</h4>
+            <p class="link_group_text">
+              Мы постоянно проводим акции и скидки. Не пропустите
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="catalog_link">
+      <div class="grid_container">
+        <h2 class="catalog_link_title index_title">Каталог товаров</h2>
+        <span class="catalog_link_subtitle index_subtitle">Все актуальные категории товаров</span>
+        <div class="catalog_link_wrapper">
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Сухие строительные смеси и игидроизоляция
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link2.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Общестроительные материалы
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link3.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Металлопрокат
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Сухие строительные смеси и игидроизоляция
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link2.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Общестроительные материалы
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link3.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Металлопрокат
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Сухие строительные смеси и игидроизоляция
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link2.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Общестроительные материалы
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link3.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Металлопрокат
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Сухие строительные смеси и игидроизоляция
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link2.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Общестроительные материалы
+            </h3>
+          </a>
+          <a href="#!" class="catalog_link_item">
+            <div class="catalog_link_item_img">
+              <img src="public/images/catalog_link3.png" alt="">
+            </div>
+            <h3 class="catalog_link_item_title">
+              Металлопрокат
+            </h3>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="sale_banner">
+      <div class="grid_container">
+        <a href="" class="sale_banner_img">
+          <img src="public/images/sale_tizer.png" alt="">
+          <h2 class="sale_banner_title">
+            <span>Акция на сухие <br> строительные смеси</span>
+          </h2>
+        </a>
+      </div>
+    </div>
+    <div class="product_week">
+      <div class="grid_container">
+        <h2 class="product_week_title index_title">Товары недели</h2>
+        <span class="product_week_subtitle index_subtitle">Популярные товары этой недели</span>
+        <a href="#!" class="product_week_link">Открыть все товары</a>
+        <div class="product_week_slider">
+          <article class="product_week_slide">
+            <div class="product_week_slide_header">
+              <span class="product_week_slide_article">
+                Арт: 12345
+              </span>
+              <a href="" class="product_week_slide_compare"></a>
+            </div>
+            <a href="#!" class="product_week_slide_img">
+              <img src="public/images/slide_img.png" alt="">
+            </a>
+            <a href="#!" class="product_week_slide_title">
+              <h3>Дрель-шуруповерт аккумуляторная Makita DF347DWE 14,4В 2х1,5Ач...</h3>
+            </a>
+            <div class="product_week_slide_price_basket">
+              <div class="product_week_slide_price">
+                <span class="product_week_slide_price_sale">12 990 Р</span>
+                <span class="product_week_slide_price_regular">17 990 Р</span>
+              </div>
+              <div class="cart_custom_input">
+                <button class="minus">-</button>
+                <input type="number" class="product_week_slide_price_input" value="1" step="1" min="1" max="">
+                <button class="plus">+</button>
+              </div>
+              <a href="" class="product_week_slide_basket"></a>
+            </div>
+          </article>
+          <article class="product_week_slide">
+            <div class="product_week_slide_header">
+              <span class="product_week_slide_article">
+                Арт: 12345
+              </span>
+              <a href="" class="product_week_slide_compare"></a>
+            </div>
+            <a href="#!" class="product_week_slide_img">
+              <img src="public/images/slide_img.png" alt="">
+            </a>
+            <a href="#!" class="product_week_slide_title">
+              <h3>Дрель-шуруповерт аккумуляторная Makita DF347DWE 14,4В 2х1,5Ач...</h3>
+            </a>
+            <div class="product_week_slide_price_basket">
+              <div class="product_week_slide_price">
+                <span class="product_week_slide_price_sale">12 990 Р</span>
+                <span class="product_week_slide_price_regular">7 990 Р</span>
+              </div>
+              <div class="cart_custom_input">
+                <button class="minus">-</button>
+                <input type="number" class="product_week_slide_price_input" value="1" step="1" min="1" max="">
+                <button class="plus">+</button>
+              </div>
+              <a href="" class="product_week_slide_basket"></a>
+            </div>
+          </article>
+          <article class="product_week_slide">
+            <div class="product_week_slide_header">
+              <span class="product_week_slide_article">
+                Арт: 12345
+              </span>
+              <a href="" class="product_week_slide_compare"></a>
+            </div>
+            <a href="#!" class="product_week_slide_img">
+              <img src="public/images/slide_img.png" alt="">
+            </a>
+            <a href="#!" class="product_week_slide_title">
+              <h3>Дрель-шуруповерт аккумуляторная Makita DF347DWE 14,4В 2х1,5Ач...</h3>
+            </a>
+            <div class="product_week_slide_price_basket">
+              <div class="product_week_slide_price">
+                <span class="product_week_slide_price_sale">12 990 Р</span>
+                <span class="product_week_slide_price_regular">7 990 Р</span>
+              </div>
+              <div class="cart_custom_input">
+                <button class="minus">-</button>
+                <input type="number" class="product_week_slide_price_input" value="1" step="1" min="1" max="">
+                <button class="plus">+</button>
+              </div>
+              <a href="" class="product_week_slide_basket"></a>
+            </div>
+          </article>
+          <article class="product_week_slide">
+            <div class="product_week_slide_header">
+              <span class="product_week_slide_article">
+                Арт: 12345
+              </span>
+              <a href="" class="product_week_slide_compare"></a>
+            </div>
+            <a href="#!" class="product_week_slide_img">
+              <img src="public/images/slide_img.png" alt="">
+            </a>
+            <a href="#!" class="product_week_slide_title">
+              <h3>Дрель-шуруповерт аккумуляторная Makita DF347DWE 14,4В 2х1,5Ач...</h3>
+            </a>
+            <div class="product_week_slide_price_basket">
+              <div class="product_week_slide_price">
+                <span class="product_week_slide_price_sale">12 990 Р</span>
+                <span class="product_week_slide_price_regular">7 990 Р</span>
+              </div>
+              <div class="cart_custom_input">
+                <button class="minus">-</button>
+                <input type="number" class="product_week_slide_price_input" value="1" step="1" min="1" max="">
+                <button class="plus">+</button>
+              </div>
+              <a href="" class="product_week_slide_basket"></a>
+            </div>
+          </article>
+          <article class="product_week_slide">
+            <div class="product_week_slide_header">
+              <span class="product_week_slide_article">
+                Арт: 12345
+              </span>
+              <a href="" class="product_week_slide_compare"></a>
+            </div>
+            <a href="#!" class="product_week_slide_img">
+              <img src="public/images/slide_img.png" alt="">
+            </a>
+            <a href="#!" class="product_week_slide_title">
+              <h3>Дрель-шуруповерт аккумуляторная Makita DF347DWE 14,4В 2х1,5Ач...</h3>
+            </a>
+            <div class="product_week_slide_price_basket">
+              <div class="product_week_slide_price">
+                <span class="product_week_slide_price_sale">12 990 Р</span>
+                <span class="product_week_slide_price_regular">7 990 Р</span>
+              </div>
+              <div class="cart_custom_input">
+                <button class="minus">-</button>
+                <input type="number" class="product_week_slide_price_input" value="1" step="1" min="1" max="">
+                <button class="plus">+</button>
+              </div>
+              <a href="" class="product_week_slide_basket"></a>
+            </div>
+          </article>
+          <article class="product_week_slide">
+            <div class="product_week_slide_header">
+              <span class="product_week_slide_article">
+                Арт: 12345
+              </span>
+              <a href="" class="product_week_slide_compare"></a>
+            </div>
+            <a href="#!" class="product_week_slide_img">
+              <img src="public/images/slide_img.png" alt="">
+            </a>
+            <a href="#!" class="product_week_slide_title">
+              <h3>Дрель-шуруповерт аккумуляторная Makita DF347DWE 14,4В 2х1,5Ач...</h3>
+            </a>
+            <div class="product_week_slide_price_basket">
+              <div class="product_week_slide_price">
+                <span class="product_week_slide_price_sale">12 990 Р</span>
+                <span class="product_week_slide_price_regular">7 990 Р</span>
+              </div>
+              <div class="cart_custom_input">
+                <button class="minus">-</button>
+                <input type="number" class="product_week_slide_price_input" value="1" step="1" min="1" max="">
+                <button class="plus">+</button>
+              </div>
+              <a href="" class="product_week_slide_basket"></a>
+            </div>
+          </article>
+          <article class="product_week_slide">
+            <div class="product_week_slide_header">
+              <span class="product_week_slide_article">
+                Арт: 12345
+              </span>
+              <a href="" class="product_week_slide_compare"></a>
+            </div>
+            <a href="#!" class="product_week_slide_img">
+              <img src="public/images/slide_img.png" alt="">
+            </a>
+            <a href="#!" class="product_week_slide_title">
+              <h3>Дрель-шуруповерт аккумуляторная Makita DF347DWE 14,4В 2х1,5Ач...</h3>
+            </a>
+            <div class="product_week_slide_price_basket">
+              <div class="product_week_slide_price">
+                <span class="product_week_slide_price_sale">12 990 Р</span>
+                <span class="product_week_slide_price_regular">7 990 Р</span>
+              </div>
+              <div class="cart_custom_input">
+                <button class="minus">-</button>
+                <input type="number" class="product_week_slide_price_input" value="1" step="1" min="1" max="">
+                <button class="plus">+</button>
+              </div>
+              <a href="" class="product_week_slide_basket"></a>
+            </div>
+          </article>
+          <article class="product_week_slide">
+            <div class="product_week_slide_header">
+              <span class="product_week_slide_article">
+                Арт: 12345
+              </span>
+              <a href="" class="product_week_slide_compare"></a>
+            </div>
+            <a href="#!" class="product_week_slide_img">
+              <img src="public/images/slide_img.png" alt="">
+            </a>
+            <a href="#!" class="product_week_slide_title">
+              <h3>Дрель-шуруповерт аккумуляторная Makita DF347DWE 14,4В 2х1,5Ач...</h3>
+            </a>
+            <div class="product_week_slide_price_basket">
+              <div class="product_week_slide_price">
+                <span class="product_week_slide_price_sale">12 990 Р</span>
+                <span class="product_week_slide_price_regular">7 990 Р</span>
+              </div>
+              <div class="cart_custom_input">
+                <button class="minus">-</button>
+                <input type="number" class="product_week_slide_price_input" value="1" step="1" min="1" max="">
+                <button class="plus">+</button>
+              </div>
+              <a href="" class="product_week_slide_basket"></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="index_news">
+      <div class="grid_container">
+        <h2 class="index_news_title index_title">Новости и полезная информация</h2>
+        <span class="index_news_subtitle index_subtitle">Блог нашего сайта</span>
+        <a href="#!" class="index_news_link product_week_link">Открыть все новости</a>
+        <div class="index_news_wrapper">
+          <a href="" class="index_news_item">
+            <div class="index_news_item_img">
+              <img src="public/images/news.jpg" alt="">
+            </div>
+            <div class="index_news_item_info">
+              <h2 class="index_news_item_title">Какие сухие смеси выбрать</h2>
+              <span class="index_news_item_button">
+                Совет специалиста
+              </span>
+            </div>
+          </a>
+          <a href="" class="index_news_item">
+            <div class="index_news_item_img">
+              <img src="public/images/news2.jpg" alt="">
+            </div>
+            <div class="index_news_item_info">
+              <h2 class="index_news_item_title">Помогаем выбрать цвет комнаты</h2>
+              <span class="index_news_item_button">
+                Совет специалиста
+              </span>
+            </div>
+          </a>
+          <a href="" class="index_news_item">
+            <div class="index_news_item_img">
+              <img src="public/images/news.jpg" alt="">
+            </div>
+            <div class="index_news_item_info">
+              <h2 class="index_news_item_title">Какие сухие смеси выбрать</h2>
+              <span class="index_news_item_button">
+                Совет специалиста
+              </span>
+            </div>
+          </a>
+          <a href="" class="index_news_item">
+            <div class="index_news_item_img">
+              <img src="public/images/news.jpg" alt="">
+            </div>
+            <div class="index_news_item_info">
+              <h2 class="index_news_item_title">Какие сухие смеси выбрать</h2>
+              <span class="index_news_item_button">
+                Совет специалиста
+              </span>
+            </div>
+          </a>
+          <a href="" class="index_news_item">
+            <div class="index_news_item_img">
+              <img src="public/images/news.jpg" alt="">
+            </div>
+            <div class="index_news_item_info">
+              <h2 class="index_news_item_title">Какие сухие смеси выбрать</h2>
+              <span class="index_news_item_button">
+                Совет специалиста
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="index_aboutus">
+      <div class="grid_container">
+        <div class="index_aboutus_wrapper">
+          <div class="index_aboutus_descriptions">
+            <h1 class="index_aboutus_title">Магазин строительных материалов в Москве</h1>
+            <div class="index_aboutus_text">
+              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+                <br>                <br>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.17 пикс.
+                17 пикс.
+              </p>
+            </div>
+          </div>
+          <div class="index_aboutus_triger">
+            <div class="index_aboutus_triger_item">
+              <h5 class="index_aboutus_triger_title">
+                Большой ассортимент
+              </h5>
+              <p class="index_aboutus_triger_text">
+                У нас в наличии всегда большой выбор товаров
+              </p>
+            </div>
+            <div class="index_aboutus_triger_item">
+              <h5 class="index_aboutus_triger_title">
+                Собственная доставка
+              </h5>
+              <p class="index_aboutus_triger_text">
+                Быстрая доставка благодаря собственному транспорту
+              </p>
+            </div>
+            <div class="index_aboutus_triger_item">
+              <h5 class="index_aboutus_triger_title">
+                Качество товаров
+              </h5>
+              <p class="index_aboutus_triger_text">
+                Мы следим за сроком годности и качеством всех товаров
+              </p>
+            </div>
+            <div class="index_aboutus_triger_item">
+              <h5 class="index_aboutus_triger_title">
+                Большой ассортимент
+              </h5>
+              <p class="index_aboutus_triger_text">
+                У нас в наличии всегда большой выбор товаров
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </main>
+  <footer>
+    <div class="footer_top">
+      <div class="grid_container">
+        <div class="footer_top_wrapper">
+          <form action="" class="footer_search header_bottom_search">
+            <input class="input_search" type="text" name="textfield" placeholder="Поиск товаров по сайту">
+            <button type="submit" class="search_button"></button>
+          </form>
+          <div class="footer_top_write_specialist">
+            <h6 class="footer_top_write_specialist_title">
+              Помощь в подборе <br> стройматериалов
+            </h6>
+            <a href="" class="footer_top_write_specialist_link">Написать специалисту</a>
+          </div>
+        </div>
+      </div>      
+    </div>
+    <div class="footer_middle">
+      <div class="grid_container">
+        <div class="footer_middle_wrapper">
+          <div class="footer_middle_nav_aboutus">
+            <span class="nav_aboutus_title">О компании</span>
+            <nav class="nav_aboutus">
+              <ul>
+                <li><a href="">О нашем магазине</a></li>
+                <li><a href="">Новости</a></li>
+                <li><a href="">Доставка</a></li>
+                <li><a href="">Оплата</a></li>
+                <li><a href=""></a></li>
+                <li><a href="">Заявка на расчет стоимости</a></li>
+                <li><a href="">Расчет стоимости доставки</a></li>
+                <li><a href="">Сезонные товары</a></li>
+                <li><a href="">Акции и товары по скидке</a></li>
+                <li><a href="">Политика конфиденциальности</a></li>
+                <li><a href="">Карта сайта</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer_middle_nav_catalog">
+            <span class="nav_aboutus_title">Каталог</span>
+            <nav class="nav_catalog">
+              <ul>
+                <li><a href="">Акции</a></li>
+                <li><a href="">Сухие смеси</a></li>
+                <li><a href="">Грунтовки</a></li>
+                <li><a href="">Строительные материалы</a></li>
+                <li><a href="">Инструменты</a></li>
+                <li><a href="">Отделочные материалы</a></li>
+                <li><a href="">Акции</a></li>
+                <li><a href="">Сухие смеси</a></li>
+                <li><a href="">Грунтовки</a></li>
+                <li><a href="">Строительные материалы</a></li>
+                <li><a href="">Инструменты</a></li>
+                <li><a href="">Отделочные материалы</a></li>
+                <li><a href="">Сухие смеси</a></li>
+                <li><a href="">Грунтовки</a></li>
+                <li><a href="">Строительные материалы</a></li>
+                <li><a href="">Инструменты</a></li>
+                <li><a href="">Отделочные материалы</a></li>
+                <li><a href="">Акции</a></li>
+                <li><a href="">Сухие смеси</a></li>
+                <li><a href="">Грунтовки</a></li>
+                <li><a href="">Строительные материалы</a></li>
+                <li><a href="">Инструменты</a></li>
+                <li><a href="">Отделочные материалы</a></li>
+                </ul>
+            </nav>
+          </div>
+          <div class="footer_middle_contacts">
+            <span class="footer_middle_contacts_title">Контактная информация</span>
+            <a href="tel:70000000000" class="footer_middle_contacts_phone">
+            +7 (000) 000-00-00 
+            <span class="contacts_phone_name">Интернет магазин</span>
+            </a>
+            <a href="tel:70000000000" class="footer_middle_contacts_phone">
+            +7 (000) 000-00-00 
+            <span class="contacts_phone_name">Доставка</span>
+            </a>
+            <a href="tel:70000000000" class="footer_middle_contacts_phone">
+            +7 (000) 000-00-00 
+            <span class="contacts_phone_name">Горячая линия</span>
+            </a>
+            <div class="footer_middle_contacts_feedback">
+              <a href="#!" class="feedback_link">Обратная связь</a>
+              <a href="#!" class="feedback_link">Отзывы покупателей</a>
+            </div>
+            <div class="footer_middle_payment_cards">
+              <span class="footer_middle_contacts_title payment_cards_title">
+                Мы принимаем к оплате
+              </span>
+              <img src="public/images/cards.png" alt="">
+            </div>
+            <div class="footer_middle_whatsapp">
+              <span class="footer_middle_contacts_title">
+                Быстрая связь
+              </span>
+              <a target="_blank" href="https://wa.me/ " class="footer_middle_whatsapp">Открыть чат в WhatsApp</a>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">  
+      <div class="grid_container">
+        <div class="footer_bottom_wrapper">
+          <div class="footer_bottom_text">
+            <span class="footer_bottom_about_company">
+              © 2003–2021 Торговый дом «ГЛАВА»
+            </span>
+            <span class="footer_bottom_about_company">
+              При полном или частичном использовании материалов с сайта ссылка на источник обязательна.
+            </span>
+          </div>
+          <a target="_blank" href="https://is-art.ru/" class="is_art">Разработка сайта</a>  
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="public/js/jquery/jquery-3.5.0.min.js"></script>
+  <script src="public/js/jquery/jquery.slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="public/js/user.js"></script>
+
+</body>
+
+</html>
